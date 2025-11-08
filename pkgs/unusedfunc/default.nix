@@ -45,6 +45,7 @@ stdenvNoCC.mkDerivation {
     description = "Go linter detecting unused functions with /internal awareness";
     homepage = "https://github.com/715d/unusedfunc";
     license = lib.licenses.bsd3;
+    mainProgram = "unusedfunc";
 
     sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
 
